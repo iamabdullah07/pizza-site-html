@@ -1,0 +1,1143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Antonio", serif;
+}
+
+p {
+    font-family: sans-serif;
+    color: rgba(59, 55, 55, 0.642);
+}
+
+/* nav S */
+.bg-color {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.10) 50%, rgba(0, 0, 0, 0) 100%);
+}
+
+.navbar .container-fluid {
+    padding: 0 40px;
+}
+
+.nav-top {
+    background-color: #bd1f17;
+}
+
+.nav-items .nav-link {
+    font-size: 19px;
+    font-weight: 600;
+    padding: 38px 10px;
+    color: white;
+    text-transform: uppercase;
+    font-family: "Antonio", serif;
+}
+
+.navbar-toggler {
+    color: white;
+    border: none;
+    position: relative;
+    right: 20x;
+}
+
+.nav-items .actives,
+.nav-items .nav-link:hover {
+    opacity: 0.6;
+}
+
+.nav-items img {
+    cursor: pointer;
+}
+
+
+
+.online-or i {
+    font-size: 20px;
+    color: white;
+}
+
+.online-or p {
+    font-size: 19px;
+    font-weight: 600;
+    font-family: "Antonio", serif;
+    color: white;
+}
+
+.phone-icon i {
+    font-size: 20px;
+    color: white;
+}
+
+.phone-icon {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .2);
+    cursor: pointer;
+}
+
+.container-fluid .num {
+    font-size: 19px;
+    font-weight: 800;
+    font-family: "Antonio", serif;
+    color: white;
+}
+
+.online-or {
+    background-color: rgba(0, 0, 0, .2);
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.online-or:hover {
+    flex-direction: row-reverse;
+}
+.navbar-nav {
+    justify-content: center;
+    align-items: center;
+}
+
+/* nav e */
+/*Top Header start */
+.img-all {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/demo-pizza-parlor-slider-10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 0;
+    overflow: hidden;
+}
+
+ /* .img11{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.06;
+    z-index: 0;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0.10) 50%, rgba(0, 0, 0, 0) 100%);
+ } */
+.main-heading {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    overflow: hidden;
+}
+
+.main-home .img1 {
+    width: 35%;
+    height: 100%;
+}
+
+.main-home .img2 {
+    position: absolute;
+    width: 75%;
+    top: 115px;
+    z-index: 1;
+}
+
+.pizz-img {
+    /* position: relative;
+    top: 90px; */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.main-heading .img8 {
+    position: relative;
+    top: -60px;
+    width: 115%;
+    height: 100%;
+    margin-bottom: -50%;
+    animation: rotate-animation 60s infinite linear;
+}
+
+@keyframes rotate-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.main-heading .rotate {
+    position: relative;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.box-position {
+    position: absolute;
+    width: 45%;
+    height: 60%;
+    top: 30%;
+    right: -130px;
+}
+
+
+.box-position .img3 {
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    animation: rotates 60s infinite linear;
+    z-index: 1;
+}
+
+
+@keyframes rotates {
+    100% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    0% {
+        transform: rotate(360deg);
+    }
+
+}
+
+.box-position .img4 {
+    position: absolute;
+    z-index: 2;
+}
+
+.box-position .img5 {
+    position: relative;
+    top: 80px;
+    right: -30px;
+}
+
+.tomarter {
+    position: absolute;
+    width: 45%;
+    height: 60%;
+    top: 40%;
+    left: -100px;
+}
+
+.mearch {
+    position: absolute;
+    width: 45%;
+    height: 60%;
+    top: 10%;
+    right: -350px;
+}
+
+.bottom-img {
+    position: absolute;
+    bottom: 0px;
+}
+
+.bottom-img .img9 {
+    height: 250px;
+    width: 100%;
+}
+
+.box {
+    position: relative;
+}
+
+.box1 {
+    position: absolute;
+    top: -145px;
+    width: 220px;
+    height: 110px;
+    border-radius: 0 0 110px 110px;
+    background-color: #ECBA23;
+    z-index: 11;
+}
+
+.box2 {
+    width: 170px;
+    height: 170px;
+    top: -90px;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 5;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 0px 40px -8px;
+}
+
+.order-piza {
+    font-size: 37px;
+    font-weight: 800;
+    font-family: "Antonio", serif;
+    top: -75px;
+}
+
+/* Top Header E*/
+
+/* The true taste of italy start */
+.short-link {
+    position: relative;
+    width: 100%;
+}
+
+.row.pb-5 .the-true {
+    font-weight: 800;
+    font-size: 50px;
+}
+
+.tomater .img12 {
+    position: absolute;
+    display: block;
+    visibility: visible;
+    width: 26%;
+    height: 85%;
+    top: -80px;
+    left: -100px;
+    animation: linearanimation;
+    animation-timeline: view();
+    z-index: 1;
+}
+
+@keyframes linearanimation {
+    0% {
+        transform: translateY(-100px);
+    }
+
+    100% {
+        transform: translateY(50px);
+    }
+}
+
+.sect-2 .row {
+    background-color: white;
+}
+
+.icon-head .position-relative,
+.new {
+    width: 100%;
+    padding-bottom: 150px;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4,
+.icon5,
+.icon6 {
+    /* width: 130px;
+    height: 65px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 1px solid rgba(145, 141, 141, 0.205);
+}
+
+.icon1 .fw-bold {
+    position: relative;
+}
+
+.icon1:hover img,
+.icon2:hover img,
+.icon3:hover img,
+.icon4:hover img,
+.icon5:hover img,
+.icon6:hover img {
+    position: relative;
+    top: -10px;
+    opacity: 0.7;
+}
+
+.icon1 {
+    z-index: 1;
+}
+
+.icon1:hover p,
+.icon2:hover p,
+.icon3:hover p,
+.icon4:hover p,
+.icon5:hover p,
+.icon6:hover p {
+    position: relative;
+    top: -10px;
+    opacity: 1;
+    border-bottom: 2px solid;
+    transition: simple .5s linear;
+}
+
+@keyframes simple {
+    0% {
+        width: 0;
+        border: none;
+    }
+
+    100% {
+        width: 100%;
+        border-bottom: 2px solid;
+    }
+}
+
+/* .icon1 .ok-im:hover:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    left: 0;
+    height: 2px;
+    bottom: -2px;
+    background-color: black;
+    transition: all .5s linear;
+}
+
+.icon1 .ok-im:hover::before {
+    width: 100%;
+}
+
+.icon1 img{
+    position: relative;
+} */
+/* on top side numer on img */
+
+/* .icon1 .ok-im:after {
+    content: "10";
+    position: absolute;
+    right: -10px;
+    top: 0;
+    height: 30px;
+    width: 30px;
+    color: white;
+    font-size: 16px;
+    font-family: "Antonio",serif;
+    border-radius: 50%;
+    background-color: black;
+    transition: all .5s linear;
+    z-index: 2;
+} */
+
+
+.icon1 p,
+.icon2 p,
+.icon3 p,
+.icon4 p,
+.icon5 p,
+.icon6 p {
+    color: #000;
+}
+
+.icon1 .icon,
+.icon2 .icon,
+.icon3 .icon,
+.icon4 .icon,
+.icon5 .icon,
+.icon6 .icon {
+    height: 100%;
+    width: 65px;
+    background-size: cover;
+}
+
+.icon1 .icon {
+    z-index: 2;
+    border: none;
+}
+
+/*The true taste of italy end */
+
+/* Pizza about Start*/
+.piza-about {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.bg-img13,
+.bg-img14 {
+    position: relative;
+    overflow: hidden;
+}
+
+.img13,
+.img14 {
+    position: absolute;
+    display: block;
+    visibility: visible;
+    right: -70px;
+    top: 0;
+    animation: lines;
+    animation-timeline: view();
+}
+
+.img13 {
+    top: -170px;
+}
+
+@keyframes lines {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(100px);
+    }
+}
+
+.about-img {
+    padding-left: 0;
+}
+
+.about-img img {
+    position: relative;
+    max-width: 118%;
+    height: 84%;
+    z-index: 10;
+    animation: linears;
+    animation-timeline: view();
+}
+
+@keyframes linears {
+    0% {
+        left: -100px;
+    }
+
+    100% {
+        left: 20px;
+    }
+}
+
+.post-txt {
+    padding-left: 100px;
+    color: #000;
+    z-index: 1;
+}
+
+.post-txt .top-txt {
+    font-size: 24px;
+    font-weight: 500;
+    color: #bd1f17;
+    text-transform: uppercase;
+}
+
+.post-txt h1 {
+    font-size: 75px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.post-txt p {
+    font-size: 18px;
+    color: #3b3737c8;
+    font-family: sans-serif;
+}
+
+.le-btn {
+    position: relative;
+    overflow: hidden;
+
+}
+
+.contact-post-btn .left-btn {
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 400;
+    height: 65px;
+    width: 160px;
+    color: white;
+    background-color: #081b28;
+    border-radius: 8px;
+    text-decoration: none;
+    z-index: 2;
+}
+
+.contact-post-btn .left-btn:hover {
+    color: black;
+}
+
+.left-btn:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 65px;
+    border-radius: 8px;
+    border: 1px solid black;
+    background-color: white;
+    animation: ani 1s ease forwards;
+    overflow: hidden;
+    z-index: -1;
+}
+
+@keyframes ani {
+    100% {
+        width: 160px;
+    }
+}
+
+.contact-post-btn .right-btn {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-decoration: none;
+}
+
+.contact-post-btn .right-btn i {
+    font-size: 24px;
+    background-color: white;
+    color: #bd1f17;
+}
+
+/* .contact-post-btn .left-btn:hover {
+    color: black;
+    background-color: white;
+    transition: left-to-right 2s inline;
+    transform: scale(1);
+}
+
+@keyframes left-to-right {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 100%;
+    }
+} */
+
+/* pizza about end */
+
+/* delivery-type  start*/
+.delivery-type {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.deli-icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.deli-icon:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.02);
+    transition: all 350ms cubic-bezier(.165, .84, .44, 1.7);
+}
+
+/* delivery-type end */
+
+/* Serivce-Pizza start */
+.service {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: #F0EEEA;
+    z-index: -1;
+}
+
+.heading-service {
+    background-color: #F0EEEA;
+}
+
+.heading-service span {
+    font-size: 30px;
+    font-weight: 300;
+    color: #bd1f17;
+    border-right: 1px solid #e4e4e4;
+}
+
+.heading-service h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: black;
+}
+
+.sevice-img {
+    animation: rotations;
+    animation-timeline: view();
+}
+
+@keyframes rotations {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(90deg);
+    }
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.rates {
+    overflow: hidden;
+    width: 160px;
+    border-radius: 10px;
+}
+
+.rates h1 {
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-family: "Antonio", serif;
+}
+
+.rates .star {
+    background-color: #ECBA23;
+}
+
+.price .orignal-price {
+    color: #bd1f17;
+    text-decoration: line-through;
+}
+
+.price .orignal-price,
+.price .off-price {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.pizza-card .card {
+    border: none;
+    background-color: #F0EEEA;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .08);
+}
+
+.main-card:hover{
+    color: #000;
+    background-color: black !important;
+    transform: scale(1.2);
+}
+.card-body h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+.design .rounded-cricle {
+    position: relative;
+    top: 90px;
+    width: 150px;
+    height: 150px;
+    background-color: #000;
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 1.2;
+    z-index: 2;
+}
+
+.design h1 {
+    background-color: #F0EEEA;
+    height: 180px;
+    width: 100%;
+    font-size: 270px;
+}
+
+/* Serivce-Pizza end */
+
+/* explore-manu start */
+.explore-manu {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: white;
+    z-index: -1;
+    margin-top: 100px;
+}
+
+.explore-heading span {
+    font-size: 30px;
+    font-weight: 300;
+    color: #bd1f17;
+    border-right: 1px solid #e4e4e4;
+}
+
+.explore-heading h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: black;
+}
+
+.dish-rat:hover {
+    transform: scale(1.02);
+    animation: all .3s;
+}
+
+h4 .txt-like {
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.manu-pizza h4 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Antonio", serif;
+}
+
+.manu-pizza p {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Schibsted Grotesk", sans-serif;
+
+}
+
+h4 .txt-like {
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #F0EEEA;
+}
+
+.pizza-price {
+    position: relative;
+}
+
+.pizza-price .doler-sign {
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: -8px;
+}
+
+.col-lg-6 .left-new {
+    position: absolute;
+    left: -15px;
+    top: 0;
+    font-size: 14px;
+    font-weight: 700;
+    height: 40px;
+    width: 40px;
+    background-color: #00Af6b;
+    font-family: "Antonio";
+    z-index: 1;
+}
+
+.left-new img {
+    width: 105px;
+    height: auto;
+}
+
+.col-lg-6 .hOt {
+    position: absolute;
+    background-color: #bd1f17;
+    z-index: 1;
+}
+
+/* explore-manu end */
+
+/* rating start */
+.rating {
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    background-image: url(img/rating.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.carousel-btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rate .txt-color-e {
+    color: #bd1f17;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.rate {
+    width: 100%;
+    height: 100%;
+}
+
+.rate .txt-size {
+    font-size: 60px;
+    font-weight: 800;
+    color: #000;
+    background-color: #F0EEEA;
+    line-height: .9;
+    font-family: "Antonio";
+}
+
+.txt-color {
+    position: relative;
+    color: #bd1f17;
+    font-size: 24px;
+    font-weight: 600;
+    border-left: 1px solid #3b373758;
+    transform: rotate(180deg);
+    writing-mode: vertical-lr;
+}
+
+.rat-data {
+    position: relative;
+}
+
+.rat-data .user-comment {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+    width: 300px;
+}
+
+.star {
+    padding: 12px;
+}
+
+.rat-star {
+    position: absolute;
+    background-color: #bd1f17;
+    padding: 6px 18px;
+}
+
+.rat-star i {
+    font-size: 17px;
+    padding: 0;
+    margin: 0;
+}
+
+.caro-box {
+    position: absolute;
+}
+
+.carous .c-left,
+.carous .c-right {
+    color: #000;
+    background-color: #FFFFFF;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.carous .c-left i,
+.carous .c-right i {
+    font-size: 24px;
+}
+
+/* rating end */
+
+/* about */
+
+.requeriment span {
+    font-size: 30px;
+    font-weight: 300;
+    color: #bd1f17;
+    border-right: 1px solid #e4e4e4;
+}
+
+.requeriment h1 {
+    font-size: 60px;
+    font-weight: 800;
+    color: black;
+}
+
+.satisfied {
+    position: relative;
+    left: 0;
+    top: 75px;
+    padding-bottom: 55px;
+}
+
+.satisfied h1 {
+    position: absolute;
+    line-height: 0.4;
+    font-size: 200px;
+    font-weight: 700;
+    font-family: "Antonio", sans-serif;
+}
+
+.about-icon {
+    font-size: 60px;
+}
+
+.about-icon:hover i {
+    transform: scale(1.1);
+}
+
+.boder-icon-left {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+}
+
+.boder-icon-right {
+    border-top: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+
+.about-serv p {
+    flex-wrap: nowrap;
+    font-size: 18px;
+}
+
+.about-serv h4 {
+    font-size: 22px;
+    font-weight: 600;
+    width: 100%;
+}
+
+/* ABout  */
+
+
+/* footer  */
+.about {
+    padding-top: 110px;
+    padding-bottom: 40px;
+}
+
+footer {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-img {
+    position: relative;
+    margin-top: 120px;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    padding-top: 100px;
+    background-image: url(img/black.png);
+    /* clip-path: ellipse(100% 100% at 50% 100%); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.f-bg{
+    position: absolute;
+    top: -150px;
+}
+.bg-new {
+    background-color: #F0EEEA;
+}
+
+.manu-info span {
+    color: #bd1f17;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.manu-info h4 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.order-now {
+    width: 100px;
+    padding: 8px;
+    background-color: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.order-now a {
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: "Antonio", serif;
+}
+
+/* foter-heading start */
+.foter-heading {
+    font-size: 38px;
+    font-weight: 300;
+    font-family: "Antonio", serif;
+    color: white;
+}
+
+.moblie-num {
+    font-size: 38px;
+    font-weight: 600;
+    color: white;
+    border-bottom: 2px solid white;
+    font-family: "Antonio", serif;
+}
+
+.fo-head {
+    color: white;
+    font-size: 18px;
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-weight: 400;
+}
+
+.col-new {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7E7E7E7E;
+}
+
+
+
+
+.foter-icon i {
+    font-size: 24px;
+    font-weight: 600;
+    width: 50px;
+    height: 50px;
+    background-color: #FFFFFF1A;
+    color: white;
+    border-radius: 50%;
+}
+.foter-icon i:hover {
+    background-color: white;
+    color: #000;
+    border-radius: 50%;
+}
+
+.nav-item .nav-link {
+    color: #FFFFFF1A;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 8px 12px;
+    font-family: "Schibsted Grotesk", sans-serif;
+
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+    color: #7E7E7E7E;
+}
+
+.footer-height {
+    border-top: 1px solid #7E7E7E7E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.copyright p {
+    color: #7E7E7E7E;
+}
+
+.fo-span {
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    font-family: "Schibsted Grotesk", sans-serif;
+    cursor: pointer;
+}
+
+/* foter-heading end */
+/* footer */
